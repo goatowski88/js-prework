@@ -35,9 +35,7 @@ if(playerInput == '1'){
 
 printMessage('Twój ruch to: ' + playerMove);
 
-let displayScore = displayResult(computerMove, playerMove);
-
-printMessage( displayScore );
+printMessage( displayResult(computerMove, playerMove) );
 
 /*
 if( computerMove == 'kamień' && playerMove == 'papier'){
